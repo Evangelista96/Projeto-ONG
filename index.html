@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma ONG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Plataforma ONG</h1>
+      <ul>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#doacoes">Doações</a></li>
+        <li><a href="#voluntariado">Voluntariado</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projetos">
+      <h2>Projetos em Destaque</h2>
+      <article>
+        <h3>Projeto Água Limpa</h3>
+        <p>Levando água potável a comunidades rurais.</p>
+      </article>
+    </section>
+<section id="doacoes">
+      <h2>Faça uma Doação</h2>
+      <form>
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" required />
+        <button type="submit">Doar</button>
+      </form>
+    </section>
+
+    <section id="voluntariado">
+      <h2>Seja Voluntário</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <button type="submit">Inscrever-se</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Plataforma ONG. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
