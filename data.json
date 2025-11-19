@@ -1,0 +1,14 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "titulo": "Projeto Água Limpa",
+      "descricao": "Levando água potável a comunidades rurais."
+    },
+    {
+      "id": 2,
+      "titulo": "Educação para Todos",
+      "descricao": "Aulas gratuitas para crianças em situação de vulnerabilidade."
+    }
+  ]
+}
